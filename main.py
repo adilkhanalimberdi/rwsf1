@@ -1,2 +1,5 @@
 print("hello, world!")
-print("This is a python file")
+
+def say_something(number, word):
+	word = word.capitalize()
+	return word * number
